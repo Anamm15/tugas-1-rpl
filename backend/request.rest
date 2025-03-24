@@ -1,0 +1,75 @@
+POST http://localhost:5000/auth/login
+Content-Type: application/json
+
+{
+    "email": "irul@gmail.com",
+    "password": "irul123"
+}
+
+###
+POST http://localhost:5000/auth/register
+Content-Type: application/json
+
+{
+    "name": "Anam",
+    "email": "irul@gmail.com",
+    "phoneNumber": "083111037657",
+    "address": "sembarang",
+    "gender": "M",
+    "age": 5,
+    "password": "irul123"
+}
+
+###
+POST http://localhost:5000/auth/register
+Content-Type: application/json
+
+{
+    "name": "Admin",
+    "email": "admin@gmail.com",
+    "phoneNumber": "083111037657",
+    "address": "sembarang",
+    "gender": "M",
+    "age": 22,
+    "password": "amblas123"
+}
+
+
+###
+GET http://localhost:5000/ticket/getAvailableTickets
+
+###
+POST http://localhost:5000/passenger/add
+Content-Type: application/json
+
+{
+    "identity": "92874817284",
+    "passport": "7dfv42",
+    "origin": "indonesian",
+    "accountId": 1
+}
+
+###
+GET http://localhost:5000/pasenger/check/1
+
+###
+GET http://localhost:5000/flight/getFlights
+
+###
+GET http://localhost:5000/flight/getFlightById/3
+
+###
+GET http://localhost:5000/booking/getBookingsPassenger/1
+
+###
+POST http://localhost:5000/booking/add
+Content-Type: application/json
+
+{
+    "accountId": 1,
+    "ticketId": 2,
+    "identity": "sadadf",
+    "passport": "324df",
+    "origin": "Germany",
+    "paymentMethod": "Cash"
+}

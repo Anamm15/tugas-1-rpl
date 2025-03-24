@@ -1,0 +1,42 @@
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pm2.log
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Build files
+dist/
+build/
+coverage/
+
+# Temporary files
+*.bak
+*.tmp
+*.log
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Generated files
+package-lock.json
+yarn.lock
